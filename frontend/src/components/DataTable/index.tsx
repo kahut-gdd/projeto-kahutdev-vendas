@@ -1,9 +1,9 @@
 const DataTable = () => {
     return (
         <div className="table-responsive">
-            <table className="table table-striped table-sm">
+            <table className="table table-hover table-striped table-sl">
                 <thead>
-                    <tr>
+                    <tr className="bg-primary text-light">
                         <th>Data</th>
                         <th>Vendedor</th>
                         <th>Clientes visitados</th>
@@ -68,3 +68,4 @@ const DataTable = () => {
 }
 
 export default DataTable;
+
